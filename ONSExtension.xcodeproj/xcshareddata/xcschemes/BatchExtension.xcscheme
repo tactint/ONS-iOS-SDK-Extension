@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "51F7ECF1236092FF00E01CD2"
-               BuildableName = "BatchExtension.framework"
-               BlueprintName = "BatchExtension"
-               ReferencedContainer = "container:BatchExtension.xcodeproj">
+               BuildableName = "ONSExtension.framework"
+               BlueprintName = "ONSExtension"
+               ReferencedContainer = "container:ONSExtension.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "51F7ECFA236092FF00E01CD2"
-               BuildableName = "BatchExtensionTests.xctest"
-               BlueprintName = "BatchExtensionTests"
-               ReferencedContainer = "container:BatchExtension.xcodeproj">
+               BuildableName = "ONSExtensionTests.xctest"
+               BlueprintName = "ONSExtensionTests"
+               ReferencedContainer = "container:ONSExtension.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "51F7ECF1236092FF00E01CD2"
-            BuildableName = "BatchExtension.framework"
-            BlueprintName = "BatchExtension"
-            ReferencedContainer = "container:BatchExtension.xcodeproj">
+            BuildableName = "ONSExtension.framework"
+            BlueprintName = "ONSExtension"
+            ReferencedContainer = "container:ONSExtension.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

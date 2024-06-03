@@ -19,7 +19,7 @@ You will also need to configure an app group shared by your extension and app. S
 
 ### Cocoapods
 
-pod 'BatchExtension'
+pod 'ONSExtension'
 
 ### Carthage
 

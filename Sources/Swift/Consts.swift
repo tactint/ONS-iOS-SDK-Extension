@@ -9,6 +9,6 @@ import Foundation
 
 struct Consts {
     static let timeoutIntervalSecs = 20
-    static let attachmentIdentifier = "ons_batch_rich_attachment"
+    static let attachmentIdentifier = "ons_rich_attachment"
     static let errorDomain = "foundation.p.ons.extension.richnotificationhelper"
 }

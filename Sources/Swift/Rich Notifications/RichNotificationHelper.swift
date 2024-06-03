@@ -73,7 +73,7 @@ public class RichNotificationHelper : NSObject {
     public func didReceive(_ request: UNNotificationRequest, withContentHandler contentHandler: @escaping (UNNotificationContent) -> Void) {
         appendRichData(toContent: request.content) { (content: UNNotificationContent?, error: Error?) in
             if let error = error {
-                print("Batch - An error occurred while downloading the rich push content: \(error)")
+                print("ONS - An error occurred while downloading the rich push content: \(error)")
             }
             contentHandler(content ?? request.content)
         }

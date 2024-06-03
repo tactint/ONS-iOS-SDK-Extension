@@ -24,7 +24,7 @@
 			containerPortal = 51F7ECE9236092FF00E01CD2 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 51F7ECF1236092FF00E01CD2;
-			remoteInfo = BatchExtension;
+			remoteInfo = ONSExtension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -165,7 +165,7 @@
 			dependencies = (
 			);
 			name = ONSExtension;
-			productName = BatchExtension;
+			productName = ONSExtension;
 			productReference = 51F7ECF2236092FF00E01CD2 /* ONSExtension.framework */;
 			productType = "com.apple.product-type.framework";
 		};
@@ -183,7 +183,7 @@
 				51F7ECFE236092FF00E01CD2 /* PBXTargetDependency */,
 			);
 			name = ONSExtensionTests;
-			productName = BatchExtensionTests;
+			productName = ONSExtensionTests;
 			productReference = 51F7ECFB236092FF00E01CD2 /* ONSExtensionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -469,7 +469,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = foundation.p.ons.Extension.BatchExtensionTests;
+				PRODUCT_BUNDLE_IDENTIFIER = foundation.p.ons.Extension.ONSExtensionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -488,7 +488,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = foundation.p.ons.Extension.BatchExtensionTests;
+				PRODUCT_BUNDLE_IDENTIFIER = foundation.p.ons.Extension.ONSExtensionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

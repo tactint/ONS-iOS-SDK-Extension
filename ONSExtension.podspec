@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   
   spec.platform     = :ios, "12.0"
   spec.swift_version = ['5.0', '5.1', '5.2', '5.3']
-  spec.source       = { :git => "https://github.com/tactint/ONSBatch-iOS-SDK-Extension.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/tactint/ONS-iOS-SDK-Extension.git", :tag => "#{spec.version}" }
 
   spec.requires_arc = true
   spec.source_files  = [ "Sources/**/*.{h,m}", "Sources/**/*.swift" ]

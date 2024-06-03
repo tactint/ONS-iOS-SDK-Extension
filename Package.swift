@@ -21,7 +21,7 @@ let package = Package(
             dependencies: [],
             path: "Sources/Swift",
             resources: [.copy("PrivacyInfo.xcprivacy")],
-            swiftSettings: [.define("BATCHEXTENSION_PURE_SWIFT")]
+            swiftSettings: [.define("ONSExtension_PURE_SWIFT")]
             ),
     ]
 )
