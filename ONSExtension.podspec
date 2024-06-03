@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = "ONSBatchExtension"
+  spec.name         = "ONSExtension"
   spec.version      = "4.0.0"
   spec.summary      = "ONS iOS SDK for Batch App Extensions."
   spec.homepage     = "https://batch.com"
@@ -14,5 +14,5 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.source_files  = [ "Sources/**/*.{h,m}", "Sources/**/*.swift" ]
   spec.public_header_files = "Sources/**/*.h"
-  spec.resource_bundles = {"ONSBatchExtension" => ["Sources/Swift/PrivacyInfo.xcprivacy"]}
+  spec.resource_bundles = {"ONSExtension" => ["Sources/Swift/PrivacyInfo.xcprivacy"]}
 end

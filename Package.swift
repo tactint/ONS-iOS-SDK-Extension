@@ -4,20 +4,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "ONSBatchExtension",
+    name: "ONSExtension",
     platforms: [
         .iOS(.v12)
     ],
     products: [
         .library(
-            name: "ONSBatchExtension",
-            targets: ["ONSBatchExtension"]),
+            name: "ONSExtension",
+            targets: ["ONSExtension"]),
     ],
     dependencies: [
     ],
     targets: [
         .target(
-            name: "ONSBatchExtension",
+            name: "ONSExtension",
             dependencies: [],
             path: "Sources/Swift",
             resources: [.copy("PrivacyInfo.xcprivacy")],
