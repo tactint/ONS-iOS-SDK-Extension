@@ -1,13 +1,13 @@
 //
-//  ONSBatchExtensionTests.swift
-//  ONSBatchExtensionTests
+//  ONSExtensionTests.swift
+//  ONSExtensionTests
 //
 //  Created by Arnaud Barisain-Monrose on 23/10/2019.
 //  Copyright © 2019 Batch. All rights reserved.
 //
 
 import XCTest
-@testable import ONSBatchExtension
+@testable import ONSExtension
 
 extension Data {
     
@@ -32,7 +32,7 @@ extension Data {
     }
 }
 
-class ONSBatchExtensionTests: XCTestCase {
+class ONSExtensionTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

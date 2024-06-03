@@ -13,9 +13,9 @@
 		514E86D12362EBEC00E42FF4 /* BAENotificationServiceExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 514E86CD2362EBEC00E42FF4 /* BAENotificationServiceExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		514E86D72362FC1E00E42FF4 /* BAENotificationServiceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514E86D62362FC1E00E42FF4 /* BAENotificationServiceExtension.swift */; };
 		515884352BC7F13B005F77D7 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 515884342BC7F13B005F77D7 /* PrivacyInfo.xcprivacy */; };
-		51F7ECFC236092FF00E01CD2 /* ONSBatchExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F7ECF2236092FF00E01CD2 /* ONSBatchExtension.framework */; };
-		51F7ED01236092FF00E01CD2 /* ONSBatchExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F7ED00236092FF00E01CD2 /* ONSBatchExtensionTests.swift */; };
-		51F7ED03236092FF00E01CD2 /* ONSBatchExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F7ECF5236092FF00E01CD2 /* ONSBatchExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51F7ECFC236092FF00E01CD2 /* ONSExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F7ECF2236092FF00E01CD2 /* ONSExtension.framework */; };
+		51F7ED01236092FF00E01CD2 /* ONSExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F7ED00236092FF00E01CD2 /* ONSExtensionTests.swift */; };
+		51F7ED03236092FF00E01CD2 /* ONSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F7ECF5236092FF00E01CD2 /* ONSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +35,11 @@
 		514E86CD2362EBEC00E42FF4 /* BAENotificationServiceExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAENotificationServiceExtension.h; sourceTree = "<group>"; };
 		514E86D62362FC1E00E42FF4 /* BAENotificationServiceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAENotificationServiceExtension.swift; sourceTree = "<group>"; };
 		515884342BC7F13B005F77D7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		51F7ECF2236092FF00E01CD2 /* ONSBatchExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ONSBatchExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		51F7ECF5236092FF00E01CD2 /* ONSBatchExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ONSBatchExtension.h; sourceTree = "<group>"; };
+		51F7ECF2236092FF00E01CD2 /* ONSExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ONSExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F7ECF5236092FF00E01CD2 /* ONSExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ONSExtension.h; sourceTree = "<group>"; };
 		51F7ECF6236092FF00E01CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51F7ECFB236092FF00E01CD2 /* ONSBatchExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ONSBatchExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		51F7ED00236092FF00E01CD2 /* ONSBatchExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ONSBatchExtensionTests.swift; sourceTree = "<group>"; };
+		51F7ECFB236092FF00E01CD2 /* ONSExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ONSExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F7ED00236092FF00E01CD2 /* ONSExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ONSExtensionTests.swift; sourceTree = "<group>"; };
 		51F7ED02236092FF00E01CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51F7ECFC236092FF00E01CD2 /* ONSBatchExtension.framework in Frameworks */,
+				51F7ECFC236092FF00E01CD2 /* ONSExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,8 +110,8 @@
 		51F7ECF3236092FF00E01CD2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				51F7ECF2236092FF00E01CD2 /* ONSBatchExtension.framework */,
-				51F7ECFB236092FF00E01CD2 /* ONSBatchExtensionTests.xctest */,
+				51F7ECF2236092FF00E01CD2 /* ONSExtension.framework */,
+				51F7ECFB236092FF00E01CD2 /* ONSExtensionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,7 +121,7 @@
 			children = (
 				514E86CB2362EBEC00E42FF4 /* ObjC */,
 				514E86C72362EBEC00E42FF4 /* Swift */,
-				51F7ECF5236092FF00E01CD2 /* ONSBatchExtension.h */,
+				51F7ECF5236092FF00E01CD2 /* ONSExtension.h */,
 				51F7ECF6236092FF00E01CD2 /* Info.plist */,
 			);
 			path = Sources;
@@ -130,7 +130,7 @@
 		51F7ECFF236092FF00E01CD2 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				51F7ED00236092FF00E01CD2 /* ONSBatchExtensionTests.swift */,
+				51F7ED00236092FF00E01CD2 /* ONSExtensionTests.swift */,
 				51F7ED02236092FF00E01CD2 /* Info.plist */,
 			);
 			path = Tests;
@@ -144,16 +144,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				514E86D12362EBEC00E42FF4 /* BAENotificationServiceExtension.h in Headers */,
-				51F7ED03236092FF00E01CD2 /* ONSBatchExtension.h in Headers */,
+				51F7ED03236092FF00E01CD2 /* ONSExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		51F7ECF1236092FF00E01CD2 /* ONSBatchExtension */ = {
+		51F7ECF1236092FF00E01CD2 /* ONSExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51F7ED06236092FF00E01CD2 /* Build configuration list for PBXNativeTarget "ONSBatchExtension" */;
+			buildConfigurationList = 51F7ED06236092FF00E01CD2 /* Build configuration list for PBXNativeTarget "ONSExtension" */;
 			buildPhases = (
 				51F7ECED236092FF00E01CD2 /* Headers */,
 				51F7ECEE236092FF00E01CD2 /* Sources */,
@@ -164,14 +164,14 @@
 			);
 			dependencies = (
 			);
-			name = ONSBatchExtension;
+			name = ONSExtension;
 			productName = BatchExtension;
-			productReference = 51F7ECF2236092FF00E01CD2 /* ONSBatchExtension.framework */;
+			productReference = 51F7ECF2236092FF00E01CD2 /* ONSExtension.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		51F7ECFA236092FF00E01CD2 /* ONSBatchExtensionTests */ = {
+		51F7ECFA236092FF00E01CD2 /* ONSExtensionTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51F7ED09236092FF00E01CD2 /* Build configuration list for PBXNativeTarget "ONSBatchExtensionTests" */;
+			buildConfigurationList = 51F7ED09236092FF00E01CD2 /* Build configuration list for PBXNativeTarget "ONSExtensionTests" */;
 			buildPhases = (
 				51F7ECF7236092FF00E01CD2 /* Sources */,
 				51F7ECF8236092FF00E01CD2 /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				51F7ECFE236092FF00E01CD2 /* PBXTargetDependency */,
 			);
-			name = ONSBatchExtensionTests;
+			name = ONSExtensionTests;
 			productName = BatchExtensionTests;
-			productReference = 51F7ECFB236092FF00E01CD2 /* ONSBatchExtensionTests.xctest */;
+			productReference = 51F7ECFB236092FF00E01CD2 /* ONSExtensionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 51F7ECEC236092FF00E01CD2 /* Build configuration list for PBXProject "ONSBatchExtension" */;
+			buildConfigurationList = 51F7ECEC236092FF00E01CD2 /* Build configuration list for PBXProject "ONSExtension" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,8 +218,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				51F7ECF1236092FF00E01CD2 /* ONSBatchExtension */,
-				51F7ECFA236092FF00E01CD2 /* ONSBatchExtensionTests */,
+				51F7ECF1236092FF00E01CD2 /* ONSExtension */,
+				51F7ECFA236092FF00E01CD2 /* ONSExtensionTests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51F7ED01236092FF00E01CD2 /* ONSBatchExtensionTests.swift in Sources */,
+				51F7ED01236092FF00E01CD2 /* ONSExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +267,7 @@
 /* Begin PBXTargetDependency section */
 		51F7ECFE236092FF00E01CD2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 51F7ECF1236092FF00E01CD2 /* ONSBatchExtension */;
+			target = 51F7ECF1236092FF00E01CD2 /* ONSExtension */;
 			targetProxy = 51F7ECFD236092FF00E01CD2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -498,7 +498,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		51F7ECEC236092FF00E01CD2 /* Build configuration list for PBXProject "ONSBatchExtension" */ = {
+		51F7ECEC236092FF00E01CD2 /* Build configuration list for PBXProject "ONSExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				51F7ED04236092FF00E01CD2 /* Debug */,
@@ -507,7 +507,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51F7ED06236092FF00E01CD2 /* Build configuration list for PBXNativeTarget "ONSBatchExtension" */ = {
+		51F7ED06236092FF00E01CD2 /* Build configuration list for PBXNativeTarget "ONSExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				51F7ED07236092FF00E01CD2 /* Debug */,
@@ -516,7 +516,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51F7ED09236092FF00E01CD2 /* Build configuration list for PBXNativeTarget "ONSBatchExtensionTests" */ = {
+		51F7ED09236092FF00E01CD2 /* Build configuration list for PBXNativeTarget "ONSExtensionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				51F7ED0A236092FF00E01CD2 /* Debug */,

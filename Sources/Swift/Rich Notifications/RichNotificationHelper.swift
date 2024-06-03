@@ -1,6 +1,6 @@
 //
 //  RichNotificationHelper.swift
-//  ONSBatchExtension
+//  ONSExtension
 //
 //  Copyright © 2019 Batch. All rights reserved.
 //

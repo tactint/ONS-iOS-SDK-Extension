@@ -1,16 +1,16 @@
 //
 //  BAENotificationServiceExtension.m
-//  ONSBatchExtension
+//  ONSExtension
 //
 //  Copyright © 2019 Batch. All rights reserved.
 //
 
 #import "BAENotificationServiceExtension.h"
 
-#if __has_include("ONSBatchExtension-Swift.h")
-#import "ONSBatchExtension-Swift.h"
+#if __has_include("ONSExtension-Swift.h")
+#import "ONSExtension-Swift.h"
 #else
-#import <ONSBatchExtension/ONSBatchExtension-Swift.h>
+#import <ONSExtension/ONSExtension-Swift.h>
 #endif
 
 @implementation BAENotificationServiceExtension

@@ -1,6 +1,6 @@
 //
 //  BAENotificationServiceExtension.h
-//  ONSBatchExtension
+//  ONSExtension
 //
 //  Copyright © 2019 Batch. All rights reserved.
 //

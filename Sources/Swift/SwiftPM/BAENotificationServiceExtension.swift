@@ -1,11 +1,11 @@
 //
 //  BAENotificationServiceExtension.swift
-//  ONSBatchExtension
+//  ONSExtension
 //
 //  Copyright © 2019 Batch. All rights reserved.
 //
 
-#if ONSBatchExtension_PURE_SWIFT
+#if ONSExtension_PURE_SWIFT
 
 import Foundation
 import UserNotifications
@@ -17,7 +17,7 @@ Simply set it as your base class without overriding any methods and Batch will a
  - Download and set rich content
  - Send display receipts
  
- This pure swift implementation is only imported when using SwiftPM to use ONSBatchExtension. Due to it being a Swift class, it cannot be overriden in Objective-C.
+ This pure swift implementation is only imported when using SwiftPM to use ONSExtension. Due to it being a Swift class, it cannot be overriden in Objective-C.
  If you need this, either reimplement it or use Cocoapods/Carthage to add this extension.
  
  Note: This class is a temporary workaround until SwiftPM handles mixed language packages better
